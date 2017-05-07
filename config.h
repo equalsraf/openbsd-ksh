@@ -54,4 +54,5 @@
 # define HISTORY
 #endif /* EDIT */
 
+#include "compat/config.h"
 #endif /* CONFIG_H */
