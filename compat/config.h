@@ -4,8 +4,10 @@
 #include <string.h>
 #include <stdlib.h>
 #include <time.h>
+#include <signal.h>
 
 #define srand_deterministic(SEED) srand(SEED)
-#define sys_signame sys_siglist
+
+extern const char *const sys_signame[_NSIG];
 
 #endif
